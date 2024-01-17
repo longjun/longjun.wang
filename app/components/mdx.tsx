@@ -2,7 +2,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 
 import Image from 'next/image';
 
-function RoundedImage(props) {
+const RoundedImage = (props) => {
   return <Image alt={props.alt} className="rounded-lg" {...props} />;
 }
 
