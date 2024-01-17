@@ -1,6 +1,7 @@
 export default function Home() {
   return (
-    <main>
-    </main>
+    <section className="entry-content section-inner thin">
+    Home
+  </section>
   )
 }
